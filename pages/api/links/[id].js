@@ -1,5 +1,5 @@
 // pages/api/links/[id].js
-import dbConnect from '../../../utils/dbConnect';
+import dbConnect from '../../../lib/mongodb';
 import Link from '../../../models/Link';
 
 dbConnect();
