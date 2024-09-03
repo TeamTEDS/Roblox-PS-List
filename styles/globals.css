@@ -1,0 +1,170 @@
+/* styles/globals.css */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif; /* Replace 'Roboto' with your font */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif; /* Apply font to headings if needed */
+}
+
+h2 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* styles/globals.css */
+
+/* Basic reset and global settings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto; /* Center the container */
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 2rem;
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+  }
+  
+  .inputGroup {
+    margin-bottom: 1rem;
+  }
+  
+  .inputGroup label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .inputGroup input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  /* Buttons */
+  .submitButton {
+    background-color: #0070f3;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  .submitButton:hover {
+    background-color: #005bb5;
+  }
+  
+  .message {
+    margin-top: 1rem;
+    color: red;
+    text-align: center;
+  }
+  
+  /* Links list styling */
+  .linksList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .linkItem {
+    display: flex;
+    align-items: center; /* Align items vertically centered */
+    margin-bottom: 1rem;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+    position: relative;
+  }
+  
+  .linkImage {
+    width: 150px; /* Make the image larger */
+    height: 150px;
+    object-fit: cover;
+    margin-right: 1rem;
+    border-radius: 4px;
+  }
+  
+  .linkItemContent {
+    display: flex;
+    align-items: center; /* Align text vertically centered with the image */
+    flex: 1;
+  }
+  
+  .linkItemText {
+    margin-left: 1rem; /* Space between image and text */
+  }
+  
+  .linkItemText h3 {
+    font-size: 1.5rem; /* Increase text size for the name */
+    margin-bottom: 0.5rem;
+  }
+  
+  .linkItemText p {
+    font-size: 1.2rem; /* Increase text size for the category */
+    color: #666;
+    margin-top: 0.5rem; /* Increase space above the category text */
+  }
+  
+  /* Position edit and delete buttons */
+  .editButton, .deleteButton {
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 0.5rem;
+  }
+  
+  .editButton:hover {
+    background-color: #005bb5;
+  }
+  
+  .deleteButton {
+    background-color: #e53e3e;
+  }
+  
+  .deleteButton:hover {
+    background-color: #c53030;
+  }
+  
+  /* Align edit and delete buttons side by side */
+  .buttonContainer {
+    display: flex;
+    align-items: center; /* Center buttons vertically */
+  }
+  
+  .editButton, .deleteButton {
+    margin: 0; /* Remove margin to place buttons side by side */
+  }
+  
+  .editButton {
+    margin-right: 0.5rem; /* Space between edit and delete buttons */
+  }
+  
