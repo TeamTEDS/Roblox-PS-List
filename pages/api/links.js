@@ -1,6 +1,7 @@
 // pages/api/links.js
 import dbConnect from '../../lib/mongodb';
 import Link from '../../models/Link';
+export const runtime = 'edge';
 
 export default async function handler(req, res) {
   const { method } = req;

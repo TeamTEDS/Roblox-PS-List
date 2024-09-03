@@ -1,6 +1,7 @@
 // pages/api/links/[id].js
 import dbConnect from '../../../lib/mongodb';
 import Link from '../../../models/Link';
+export const runtime = 'edge';
 
 dbConnect();
 

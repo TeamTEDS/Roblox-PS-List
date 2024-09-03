@@ -1,4 +1,5 @@
 // pages/api/authenticate.js
+export const runtime = 'edge';
 export default function handler(req, res) {
     const { authorization } = req.headers;
   
